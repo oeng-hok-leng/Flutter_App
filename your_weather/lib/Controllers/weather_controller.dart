@@ -7,7 +7,8 @@ class WeatherController extends GetxController {
   final weather = Weather().obs;
 
   Future<dynamic> getWeather(double lat, double lon) async {
-    const apiKey = "b9b799f6c78641e4ba5b2b7d3a32da0a";
+    // for api key you can go to openweathermap to sign up or sign in to get it
+    const apiKey = "";
     // final url = Uri.parse(
     //     "https://api.openweathermap.org/data/2.5/weather?lat=$lat&lon=$lon&appid=$apiKey");
     final url = Uri.parse(
